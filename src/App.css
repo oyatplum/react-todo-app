@@ -1,3 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: aliceblue;
+}
 .container {
   margin: auto;
   max-width: 600px;
