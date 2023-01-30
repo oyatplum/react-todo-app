@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./App.css";
-import List from "./components/List";
+import List from "./components/Lists";
 import Form from "./components/Form";
 
 export default function App() {
