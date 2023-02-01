@@ -13,14 +13,14 @@ export default function Form({handleSubmit, value, setValue}) {
           <input 
             type = "text"
             name = "value"
-            className='w-full px-3 py-2 mr-4 text-gray-500 border rounded shadow'
-            placeholder = "해야 할 일을 입력하세요."
+            className='w-full px-3 py-2 mr-4 text-gray-500 border rounded-lg shadow-lg'
+            placeholder = "Enter your to do."
             value = {value}
             onChange = {handleChange}
           />
-          <input className='p-2 text-blue-400 border-2 border-blue-400 rounded hover:text-white hover:bg-blue-200'
+          <input className='p-1.5 text-red-300 border-2 border-red-300 rounded-lg hover:text-white hover:bg-red-200 shadow-lg'
             type = "submit"
-            value = "입력"
+            value = "Enter"
           />
         </form>
     </div>
